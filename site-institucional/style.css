@@ -12,8 +12,7 @@
 }
 .container{
     width: 80%;
-    background-color: black;
-    height: 100%;
+     height: 100%;
     margin: auto;
 }
 .navbar{
@@ -44,4 +43,114 @@
 .navbar li a{
     text-decoration: none;
     color: goldenrod;
+}
+.banner{
+    height: 500px;
+    background-image: url('https://i.pinimg.com/originals/04/74/f3/0474f3de75fea0fafd34f98fcd398a7a.gif');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    
+}
+.message{
+    margin-right: 250px;
+    color: white;
+    font-size: 30px;
+    width: 10%;
+}
+.message span{
+    font-weight: bolder;
+}
+.proposito{
+    height: 450px;
+    background-color: rgb(225, 222, 228);
+    
+    
+}
+.proposito .container .mvv div img{
+    height: 100px;
+    width: 100px;
+}
+.proposito .container .mvv{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+.proposito .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.proposito .container .mvv div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.proposito .container h2{
+    color: rgb(187, 8, 8);
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+.proposito .container .mvv h3{
+    color: rgb(187, 8, 8);
+    font-weight: bolder;
+    margin: 25px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    height: 150px;
+}
+.footer p{
+    font-weight: bolder;
+    color: white;
+
+}
+.formLogin{
+    background-color: white;
+   
+}
+.banner .formLogin{
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.banner .formLogin div{
+    display: flex;
+    flex-direction: column;
+}
+.banner .formLogin h2{
+    color: red;
+}
+.banner .formLogin div span{
+    color: red;
+}
+.banner .formLogin div input{
+    border: solid 2px red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner .formLogin button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
 }
