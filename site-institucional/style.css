@@ -154,3 +154,34 @@
     border: none;
     border-radius: 10px;
 }
+.banner .formCadastro{
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .formCadastro div{
+    display: flex;
+    flex-direction: column;
+}
+.banner .formCadastro h2{
+    color: red;
+}
+.banner .formCadastro div span{
+    color: red;
+}
+.banner .formCadastro div input{
+    border: solid 2px red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner .formCadastro button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
